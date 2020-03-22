@@ -8,12 +8,22 @@ Different countries have taken different approaches to stopping or mitigating th
 
 To make it easier to see when we would expect policy measures to have an impact on numbers, I've plotted the two together for separate countries. I'm hoping that as more time passes the plots will also help in a coarse and unsophisticated way to assess at a glance if the measures have had an impact.
 
+# How to read the plot
+
+![UK Covid-19 Plot](/plots/uk.png)
+
+The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy. The gap in days between the policy and start of effect is 12 days for confirmed cases and 16 days for deaths. For more information about these numbers, see the [about the data section](#about-the-data).
+
+At the top of the plots I've marked the different phases the countries have taken to curtail the spread of the virus. I've found it useful because the confirmed cases only makes sense when considering how the government were testing people. 
+
 # Analysis
 I'll include plots from a few different countries here and jot down some thoughts if there's things standing out to me.
 
 ## The United Kingdom
 
 ![UK Covid-19 Plot](/plots/uk.png)
+
+It's too early to tell.
 
 # About the data
 
@@ -32,3 +42,7 @@ To plot policy alongside covid-19 statistics and mark when it would be expected 
      * Symptoms to death: [8 days median in Italy](https://www.epicentro.iss.it/coronavirus/bollettino/Report-COVID-2019_17_marzo-v2.pdf)
    
    Based on these sources I've chosen to use 12 days as the time between a policy is implemented to we expect to see results and 16 days between a policy is implemented to we expect it to impact the number of deaths. The latter number comes from adding 5 (incubation) to the average between the two last studies.
+
+# About me and this repository
+
+I'm not an epidemiologist and have no specialist knowledge that would make me uniquely qualified to bring you this data. I've written up these numbers to satisfy my own curiosity and share my findings with friends. 
