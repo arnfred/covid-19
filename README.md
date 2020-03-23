@@ -25,11 +25,19 @@ I'll include plots from a few different countries here and jot down some thought
 
 The UK shifted from a track and test phase to a contain phase on March 12th where only serious cases where tested. Recently testing has started for front-line workers with the first results expected in on March 23rd which will likely inflate confirmed cases. Compared with most other European countries, the UK has chosen to introduce policies like the closing of schools later.
 
-## Denmark
+## Germany
+
+![DE Covid-19 Plot](/plots/de.png)
+
+The German states are individually responsible for health component of the German response to covid-19 and have taken different approaches to testing. This makes it a bit harder to reason about the daily cases because different states might employ different testing practices at different times. It's also the reason I haven't included phases in the plot, since there isn't at least as far as I can gather a clear point in time when Germany has shifted from containment to delaying the virus.
+
+## Scandinavia
 
 ![DK Covid-19 Plot](/plots/dk.png)
+![SE Covid-19 Plot](/plots/se.png)
+![NO Covid-19 Plot](/plots/no.png)
 
-Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure. There's talk of testing more people, but I've not heard any news of being put in to effect yet.
+The approaches taken in Scandinavia are interesting to compare and contrast. All have similar health care systems and welfare systems, but their responses to covid-19 has been different. The measures taken by Denmark and Norway has been much more heavy handed or proactive (depending on how you look at it) than the Swedish response, where for example schools still aren't closed. Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure.
 
 # About the data
 
