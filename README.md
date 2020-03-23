@@ -23,7 +23,13 @@ I'll include plots from a few different countries here and jot down some thought
 
 ![UK Covid-19 Plot](/plots/uk.png)
 
-It's too early to tell.
+The UK shifted from a track and test phase to a contain phase on March 12th where only serious cases where tested. Recently testing has started for front-line workers with the first results expected in on March 23th which will likely inflate confirmed cases. Compared with most other European countries, the UK has chosen to introduce policies like the closing of schools later.
+
+## Denmark
+
+![DK Covid-19 Plot](/plots/dk.png)
+
+Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure. There's talk of testing more people, but I've not heard any news of being put in to effect yet.
 
 # About the data
 
