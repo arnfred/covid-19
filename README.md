@@ -12,9 +12,9 @@ To make it easier to see when we would expect policy measures to have an impact 
 
 ![UK Covid-19 Plot](/plots/uk.png)
 
-The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy beginning to appear. The gap in days between the policy and start of effect is 12 days for confirmed cases and 16 days for deaths. For more information about these numbers, see the [about the data section](#about-the-data).
+The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy beginning to appear. The gap in days between the policy and start of effect is 12 days for confirmed cases and 16 days for deaths on average. That means that we might see effects of a policy change before the dotted line, but that most of the effect of it should happen after. For more information about these numbers, see the [about the data section](#about-the-data).
 
-At the top of the plots I've marked the different phases the countries have taken to curtail the spread of the virus. I've found it useful because the confirmed cases only makes sense when considering how the government were testing people. 
+At the top of the plots I've marked the different phases the countries have taken to curtail the spread of the virus. I've found it useful because the confirmed cases only makes sense when considering how the government were testing people. It's been difficult to dig up the testing practices of different countries, and in many countries different parts of the country have taken different approaches at different times, so take these phases with a grain of salt.
 
 # Analysis
 I'll include plots from a few different countries here and jot down some thoughts if there's things standing out to me.
@@ -23,13 +23,39 @@ I'll include plots from a few different countries here and jot down some thought
 
 ![UK Covid-19 Plot](/plots/uk.png)
 
-The UK shifted from a track and test phase to a contain phase on March 12th where only serious cases where tested. Recently testing has started for front-line workers with the first results expected in on March 23rd which will likely inflate confirmed cases. Compared with most other European countries, the UK has chosen to introduce policies like the closing of schools later.
+The UK shifted from a track and test phase to a contain phase on March 12th where only serious cases where tested. I'm suspecting results of tests conducted on March 12th came in up until 48 hours later, possibly explaining the drop after March 14th. Recently testing has started for front-line workers with the first results expected in on March 23th which will likely inflate confirmed cases. Compared with most other European countries, the UK has chosen to introduce policies like the closing of schools later.
+
+* 2020-03-24: We're getting close to seeing the initial effects of the governments guideline to self-isolate if showing symptoms. I'm curious to see if the change in behavior that following along this guidance including working from home and washing hands more often will start showing up in the number of confirmed cases over the next few days. So far it's a bit early to draw any conclusions.
 
 ## Germany
 
 ![DE Covid-19 Plot](/plots/de.png)
 
 The German states are individually responsible for health component of the German response to covid-19 and have taken different approaches to testing. This makes it a bit harder to reason about the daily cases because different states might employ different testing practices at different times. It's also the reason I haven't included phases in the plot, since there isn't at least as far as I can gather a clear point in time when Germany has shifted from containment to delaying the virus.
+
+* 2020-03-24: I find the German numbers hard to make sense of because of the big delta between confirmed cases on March 20th and March 21st. I haven't been able to figure out if this change is due to a change in testing practices or if it might indicate that measures taken before the school closures have started to show effect.
+
+## France
+
+![FR Covid-19 Plot](/plots/fr.png)
+
+The French government has categorised the epidemic in their [own four phases](https://sante.journaldesfemmes.fr/maladies/2622449-plan-orsan-reb-definition-signification-qui-declenche-coronavirus-definition/) of which we're currently in the third one, where the country is focused on dealing with on-going spread of the virus. I've tried to translate and summarise them in to one word at the top of the plot. Something I'm fairly sure I've done a mediocre job of.
+
+* 2020-03-24: We're at the point in time where we would hope to see the initial effect of the early measures introduced by the French government, like limiting events with crowds of more than a 1000+ people. It's still too early to judge if they had any impact.
+
+## Italy
+
+![IT Covid-19 Plot](/plots/it.png)
+
+* 2020-03-24: Looking at the plot, the 15th and 16th of March stands out and looks to me like numbers of confirmed cases for March 15th were rolled in to the numbers for March 16th. The italian figures indicate that a lot of the measures deployed by the italian government only managed to slow down the spread of the virus at best. I would have expected to see an effect on confirmed cases from the country wide lock-down happen on March 21st onwards, but so far the few datapoints we have don't show any significant drop in the number of new cases. I can't help but wonder if the health care system is under such strain that new cases only get registered a significant while after showing symptoms, increasing the delay between policy measures being implemented and their effect in the numbers of confirmed cases.
+
+## Spain
+
+![ES Covid-19 Plot](/plots/es.png)
+
+The Spanish measures were at first isolated to the worst affected regions (Madrid, Basque country, a few villages in Catalonia), and only relatively late did the central government take nationwide actions.
+
+* 2020-03-24: It's still too early to expect to see much effect from any nationwide action. I'm hopeful though that we'll start to see a drop in new cases as the nation-wide closing of schools approaches.
 
 ## Scandinavia
 
@@ -38,6 +64,8 @@ The German states are individually responsible for health component of the Germa
 ![NO Covid-19 Plot](/plots/no.png)
 
 The approaches taken in Scandinavia are interesting to compare and contrast. All have similar health care systems and welfare systems, but their responses to covid-19 has been different. The measures taken by Denmark and Norway has been much more heavy handed or proactive (depending on how you look at it) than the Swedish response, where for example schools still aren't closed. Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure.
+
+* 2020-03-24: It makes me hopeful to see the Danish numbers of daily confirmed cases. There aren't enough data-points to establish a clear trend as far as I can tell, but numbers are starting to go down around the time that the first measures of the Danish state would be expected to take effect, so I'm crossing my fingers that this trend will continue and be strengthen once the stronger measures start having an impact on the number of cases too.
 
 # About the data
 
