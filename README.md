@@ -49,6 +49,8 @@ The French government has categorised the epidemic in their [own four phases](ht
 
 * 2020-03-24: Looking at the plot, the 15th and 16th of March stands out and looks to me like numbers of confirmed cases for March 15th were rolled in to the numbers for March 16th. The italian figures indicate that a lot of the measures deployed by the italian government only managed to slow down the spread of the virus at best. I would have expected to see an effect on confirmed cases from the country wide lock-down happen on March 21st onwards, but so far the few datapoints we have don't show any significant drop in the number of new cases. I can't help but wonder if the health care system is under such strain that new cases only get registered a significant while after showing symptoms, increasing the delay between policy measures being implemented and their effect in the numbers of confirmed cases.
 
+* 2020-03-25: I start notice a drop in confirmed cases that my brain is keen to associate with the lockdown, but with only two datapoints,  I think it's better to wait a bit and see if it continues for another couple of days before getting too optimistic.
+
 ## Spain
 
 ![ES Covid-19 Plot](/plots/es.png)
@@ -66,6 +68,10 @@ The Spanish measures were at first isolated to the worst affected regions (Madri
 The approaches taken in Scandinavia are interesting to compare and contrast. All have similar health care systems and welfare systems, but their responses to covid-19 has been different. The measures taken by Denmark and Norway has been much more heavy handed or proactive (depending on how you look at it) than the Swedish response, where for example schools still aren't closed. Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure.
 
 * 2020-03-24: It makes me hopeful to see the Danish numbers of daily confirmed cases. There aren't enough data-points to establish a clear trend as far as I can tell, but numbers are starting to go down around the time that the first measures of the Danish state would be expected to take effect, so I'm crossing my fingers that this trend will continue and be strengthen once the stronger measures start having an impact on the number of cases too.
+
+* 2020-03-25: Denmark has a spike in reported deaths because of a change in reporting practice[1].
+
+[1]: https://www.dr.dk/nyheder/indland/32-coronasmittede-danskere-er-doede
 
 # About the data
 
