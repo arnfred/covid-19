@@ -1,3 +1,20 @@
+# Contents
+
+* [Covid-19 Policy Effects](#covid-19-policy-effects)
+* [How to read the plot](#how-to-read-the-plot)
+* [Analysis](#analysis)
+	* [The United Kingdom](#the-united-kingdom)
+	* [Germany](#germany)
+	* [France](#france)
+	* [Italy](#italy)
+	* [Spain](#spain)
+	* [Scandinavia](#scandinavia)
+* [About the data](#about-the-data)
+	* [Covid-19 Daily Data](#covid-19-daily-data)
+	* [Policy Decisions](#policy-decisions)
+	* [Covid-19 Case Statistics](#covid-19-case-statistics)
+* [About me and this repository](#about-me-and-this-repository)
+
 # Covid-19 Policy Effects
 
 Different countries have taken different approaches to stopping or mitigating the covid-19 pandemic. I've found myself reading news and pouring over numbers trying to understand the impact of different measures, but have so far found that most of my day-to-day sources make it non-trivial to reason much about policy and infection and answer questions like:
