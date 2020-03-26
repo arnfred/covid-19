@@ -90,6 +90,12 @@ The approaches taken in Scandinavia are interesting to compare and contrast. All
 
 [1]: https://www.dr.dk/nyheder/indland/32-coronasmittede-danskere-er-doede
 
+## Switzerland
+
+![CH Covid-19 Plot](/plots/ch.png)
+
+Despite being close to Italy, where a lot of foreign workers come everyday, Switzerland has been slow to issue nation-wide laws to react. The federal system was guilty - While Ticino faced a rapid growth of sick people, it reacted and closed its borders, while the rest of the cantons stayed open. Still to date, Switzerland has not officially locked the country entirely.
+
 # About the data
 
 To plot policy alongside covid-19 statistics and mark when it would be expected to take place, I've had to collect 3 different type of data:
