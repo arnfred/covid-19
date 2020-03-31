@@ -43,6 +43,11 @@ I'll include plots from a few different countries here and jot down some thought
 The UK shifted from a track and test phase to a contain phase on March 12th where only serious cases where tested. I'm suspecting results of tests conducted on March 12th came in up until 48 hours later, possibly explaining the drop after March 14th. Recently testing has started for front-line workers with the first results expected in on March 23th which will likely inflate confirmed cases. Compared with most other European countries, the UK has chosen to introduce policies like the closing of schools later.
 
 * 2020-03-24: We're getting close to seeing the initial effects of the governments guideline to self-isolate if showing symptoms. I'm curious to see if the change in behavior that following along this guidance including working from home and washing hands more often will start showing up in the number of confirmed cases over the next few days. So far it's a bit early to draw any conclusions.
+* 2020-03-30: The UK has started increasing the number of people tested since March 23rd.
+* 2020-03-30: There's little sign that the government calls for self-isolation if symptoms were effective enough to stop the exponential growth of daily confirmed cases. I'm starting to think that school closures are key in limiting the spread based on the fact that younger parts of the population are more often asymptomatic[1] and still shown to be infectious[2]. Before school closures, kids could infect each other without showing symptoms and then go on to effect parents and teachers. 
+
+[1]: https://medium.com/@andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
+[2]: https://www.patientcareonline.com/infectious-disease/covid-19-viral-load-asymptomatic-patient-found-similar-those-overtly-ill
 
 ## Germany
 
@@ -51,6 +56,7 @@ The UK shifted from a track and test phase to a contain phase on March 12th wher
 The German states are individually responsible for health component of the German response to covid-19 and have taken different approaches to testing. This makes it a bit harder to reason about the daily cases because different states might employ different testing practices at different times. It's also the reason I haven't included phases in the plot, since there isn't at least as far as I can gather a clear point in time when Germany has shifted from containment to delaying the virus.
 
 * 2020-03-24: I find the German numbers hard to make sense of because of the big delta between confirmed cases on March 20th and March 21st. I haven't been able to figure out if this change is due to a change in testing practices or if it might indicate that measures taken before the school closures have started to show effect.
+* 2020-03-30: German cases show a very irregular pattern that has fluctuated a lot but not shown any significant growth over the last 9 days. If we ignore the peak on March 20th and assume it's cases accumulated from earlier days (which is guesswork on my part), then it looks like the number of confirmed cases has been growing linearly and fairly slowly since the effect of school closures would be expected to set in.
 
 ## France
 
@@ -59,6 +65,7 @@ The German states are individually responsible for health component of the Germa
 The French government has categorised the epidemic in their [own four phases](https://sante.journaldesfemmes.fr/maladies/2622449-plan-orsan-reb-definition-signification-qui-declenche-coronavirus-definition/) of which we're currently in the third one, where the country is focused on dealing with on-going spread of the virus. I've tried to translate and summarise them in to one word at the top of the plot. Something I'm fairly sure I've done a mediocre job of.
 
 * 2020-03-24: We're at the point in time where we would hope to see the initial effect of the early measures introduced by the French government, like limiting events with crowds of more than a 1000+ people. It's still too early to judge if they had any impact.
+* 2020-03-30: It doesn't look like liming crowds made a significant impact in the exponential curve of the infection rate. This upcoming week will show if school closures and the lock down will stop the contiued exponential growth in confirmed cases.
 
 ## Italy
 
@@ -67,6 +74,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 * 2020-03-24: Looking at the plot, the 15th and 16th of March stands out and looks to me like numbers of confirmed cases for March 15th were rolled in to the numbers for March 16th. The italian figures indicate that a lot of the measures deployed by the italian government only managed to slow down the spread of the virus at best. I would have expected to see an effect on confirmed cases from the country wide lock-down happen on March 21st onwards, but so far the few datapoints we have don't show any significant drop in the number of new cases. I can't help but wonder if the health care system is under such strain that new cases only get registered a significant while after showing symptoms, increasing the delay between policy measures being implemented and their effect in the numbers of confirmed cases.
 
 * 2020-03-25: I start notice a drop in confirmed cases that my brain is keen to associate with the lockdown, but with only two datapoints,  I think it's better to wait a bit and see if it continues for another couple of days before getting too optimistic.
+* 2020-03-30: The confirmed case rate in Italy has stayed stable since the lock-down, a pattern that was also seen in Wuhan. In China it took around 2 weeks before the number of daily confirmed cases had halved after the lockdown had set in.
 
 ## Spain
 
@@ -75,6 +83,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 The Spanish measures were at first isolated to the worst affected regions (Madrid, Basque country, a few villages in Catalonia), and only relatively late did the central government take nationwide actions.
 
 * 2020-03-24: It's still too early to expect to see much effect from any nationwide action. I'm hopeful though that we'll start to see a drop in new cases as the nation-wide closing of schools approaches.
+* 2020-03-30: It's early days but it looks like Spain is starting to see an impact in daily infection rates after the lockdown set in. I'm crossing my fingers that numbers will remain stable or start dropping over the next week.
 
 ## Scandinavia
 
@@ -85,8 +94,8 @@ The Spanish measures were at first isolated to the worst affected regions (Madri
 The approaches taken in Scandinavia are interesting to compare and contrast. All have similar health care systems and welfare systems, but their responses to covid-19 has been different. The measures taken by Denmark and Norway has been much more heavy handed or proactive (depending on how you look at it) than the Swedish response, where for example schools still aren't closed. Denmark stopped the contain phase using tracking and testing on March 11th with a big impact in the number of confirmed cases, as evident from the figure.
 
 * 2020-03-24: It makes me hopeful to see the Danish numbers of daily confirmed cases. There aren't enough data-points to establish a clear trend as far as I can tell, but numbers are starting to go down around the time that the first measures of the Danish state would be expected to take effect, so I'm crossing my fingers that this trend will continue and be strengthen once the stronger measures start having an impact on the number of cases too.
-
 * 2020-03-25: Denmark has a spike in reported deaths because of a change in reporting practice[1].
+* 2020-03-30: Denmark has rolled out more testing which I've marked on the graph at the top as '+Tests'. It has likely had an impact on the rise in daily cases around March 25th. The figures still look stable though, which is encouraging.
 
 [1]: https://www.dr.dk/nyheder/indland/32-coronasmittede-danskere-er-doede
 
@@ -94,7 +103,7 @@ The approaches taken in Scandinavia are interesting to compare and contrast. All
 
 ![CH Covid-19 Plot](/plots/ch.png)
 
-Despite being close to Italy, where a lot of foreign workers come everyday, Switzerland has been slow to issue nation-wide laws to react. The federal system was guilty - While Ticino faced a rapid growth of sick people, it reacted and closed its borders, while the rest of the cantons stayed open. Still to date, Switzerland has not officially locked the country entirely.
+Despite being close to Italy, where a lot of foreign workers come everyday, Switzerland has been slow to issue nation-wide laws to react. The federal system was guilty - When Ticino faced a rapid growth of sick people, it reacted and closed its borders, while the rest of the cantons stayed open. Still to date, Switzerland has not officially locked the country entirely.
 
 # About the data
 
