@@ -29,7 +29,7 @@ To make it easier to see when we would expect policy measures to have an impact 
 
 ![UK Covid-19 Plot](/plots/uk.png)
 
-The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy beginning to appear. The gap in days between the policy and start of effect is 12 days for confirmed cases and 16 days for deaths on average. That means that we might see effects of a policy change before the dotted line, but that most of the effect of it should happen after. For more information about these numbers, see the [about the data section](#about-the-data).
+The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy beginning to appear. The gap in days between the policy and start of effect is 12 days for confirmed cases and 19 days for deaths on average. That means that we might see effects of a policy change before the dotted line, but that most of the effect of it should happen after. For more information about these numbers, see the [about the data section](#about-the-data).
 
 At the top of the plots I've marked the different phases the countries have taken to curtail the spread of the virus. I've found it useful because the confirmed cases only makes sense when considering how the government were testing people. It's been difficult to dig up the testing practices of different countries, and in many countries different parts of the country have taken different approaches at different times, so take these phases with a grain of salt.
 
@@ -45,6 +45,7 @@ The UK shifted from a track and test phase to a contain phase on March 12th wher
 * 2020-03-24: We're getting close to seeing the initial effects of the governments guideline to self-isolate if showing symptoms. I'm curious to see if the change in behavior that following along this guidance including working from home and washing hands more often will start showing up in the number of confirmed cases over the next few days. So far it's a bit early to draw any conclusions.
 * 2020-03-30: The UK has started increasing the number of people tested since March 23rd.
 * 2020-03-30: There's little sign that the government calls for self-isolation if symptoms were effective enough to stop the exponential growth of daily confirmed cases. I'm starting to think that school closures are key in limiting the spread based on the fact that younger parts of the population are more often asymptomatic[1] and still shown to be infectious[2]. Before school closures, kids could infect each other without showing symptoms and then go on to effect parents and teachers. 
+* 2020-04-04: Unlike Italy, Spain, France and Norway, Daily cases are still going significantly up 12 days after the lockdown has been instanted. I've added test data to the plot to see if this increase of cases was correlated with a big increase in daily test results, but that doesn't look like it's the case.
 
 [1]: https://medium.com/@andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
 [2]: https://www.patientcareonline.com/infectious-disease/covid-19-viral-load-asymptomatic-patient-found-similar-those-overtly-ill
@@ -57,6 +58,7 @@ The German states are individually responsible for health component of the Germa
 
 * 2020-03-24: I find the German numbers hard to make sense of because of the big delta between confirmed cases on March 20th and March 21st. I haven't been able to figure out if this change is due to a change in testing practices or if it might indicate that measures taken before the school closures have started to show effect.
 * 2020-03-30: German cases show a very irregular pattern that has fluctuated a lot but not shown any significant growth over the last 9 days. If we ignore the peak on March 20th and assume it's cases accumulated from earlier days (which is guesswork on my part), then it looks like the number of confirmed cases has been growing linearly and fairly slowly since the effect of school closures would be expected to set in.
+* 2020-04-04: I think April 3rd data is a blip in the data. I'm hoping it'll be corrected as I pull in more updated data tomorrow.
 
 ## France
 
@@ -66,6 +68,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 
 * 2020-03-24: We're at the point in time where we would hope to see the initial effect of the early measures introduced by the French government, like limiting events with crowds of more than a 1000+ people. It's still too early to judge if they had any impact.
 * 2020-03-30: It doesn't look like liming crowds made a significant impact in the exponential curve of the infection rate. This upcoming week will show if school closures and the lock down will stop the contiued exponential growth in confirmed cases.
+* 2020-04-04: I'm guessing that March 30th and April 1st are related blips in the data, in which case daily cases seem to have stabilised somewhat after the effects of the country-wide lockdown started to set in on March 29th.
 
 ## Italy
 
@@ -75,6 +78,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 
 * 2020-03-25: I start notice a drop in confirmed cases that my brain is keen to associate with the lockdown, but with only two datapoints,  I think it's better to wait a bit and see if it continues for another couple of days before getting too optimistic.
 * 2020-03-30: The confirmed case rate in Italy has stayed stable since the lock-down, a pattern that was also seen in Wuhan. In China it took around 2 weeks before the number of daily confirmed cases had halved after the lockdown had set in.
+* 2020-04-04: It's looking like the Italian daily cases are have been going down unsteadily for the last week and the death rate is showing signs of doing the same. Based on China and Italy, I'm suspecting that the time between infection and death is more like 14 (the conclusion in one paper based on data from China) than 8 (the conclusion in another paper based on early data from Italy). 
 
 ## Spain
 
@@ -126,7 +130,9 @@ To understand the delay between policy is implemented and it shows up in the dai
    * Symptoms to death: [14 days median in China](https://pubmed.ncbi.nlm.nih.gov/31994742/)
    * Symptoms to death: [8 days median in Italy](https://www.epicentro.iss.it/coronavirus/bollettino/Report-COVID-2019_17_marzo-v2.pdf)
    
-Based on these sources I've chosen to use 12 days as the time between a policy is implemented to we expect to see results and 16 days between a policy is implemented to we expect it to impact the number of deaths. The latter number comes from adding 5 (incubation) to the average between the two last studies.
+Based on these sources I've chosen to use 12 days as the time between a policy is implemented to we expect to see results and 19 (14+5) days between a policy is implemented to we expect it to impact the number of deaths. The latter number comes from the study based on Chinese data cited above and is chosen because both data from China and Italy are displaying this general pattern.
+
+* 2020-04-04: I used to use the figure of 16 days between the time a policy is implemented and the starting point where we would expect to see an impact on the death rate. I had chosen this number as a average of the two studies cited above, but since then data has come out more clearly from Italy that supports the larger number.
 
 # About me and this repository
 
