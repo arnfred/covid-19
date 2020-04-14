@@ -46,6 +46,8 @@ The UK shifted from a track and test phase to a contain phase on March 12th wher
 * 2020-03-30: The UK has started increasing the number of people tested since March 23rd.
 * 2020-03-30: There's little sign that the government calls for self-isolation if symptoms were effective enough to stop the exponential growth of daily confirmed cases. I'm starting to think that school closures are key in limiting the spread based on the fact that younger parts of the population are more often asymptomatic[1] and still shown to be infectious[2]. Before school closures, kids could infect each other without showing symptoms and then go on to effect parents and teachers. 
 * 2020-04-04: Unlike Italy, Spain, France and Norway, Daily cases are still going significantly up 12 days after the lockdown has been instanted. I've added test data to the plot to see if this increase of cases was correlated with a big increase in daily test results, but that doesn't look like it's the case.
+* 2020-04-12: The spike in daily cases is due to a change in reporting. Up until this point, the UK only reported positive cases admitted to the hospital and didn't include test results for health care workers that turned out to be positive
+* 2020-04-14: We're past the point where the policy effects of the lockdown should start show an impact on the number of daily deaths reported. However it's hard to be sure if the recent dip in daily deaths is due to less reporting during the easter week or an actual decrease.
 
 [1]: https://medium.com/@andreasbackhausab/coronavirus-why-its-so-deadly-in-italy-c4200a15a7bf
 [2]: https://www.patientcareonline.com/infectious-disease/covid-19-viral-load-asymptomatic-patient-found-similar-those-overtly-ill
@@ -69,6 +71,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 * 2020-03-24: We're at the point in time where we would hope to see the initial effect of the early measures introduced by the French government, like limiting events with crowds of more than a 1000+ people. It's still too early to judge if they had any impact.
 * 2020-03-30: It doesn't look like liming crowds made a significant impact in the exponential curve of the infection rate. This upcoming week will show if school closures and the lock down will stop the contiued exponential growth in confirmed cases.
 * 2020-04-04: I'm guessing that March 30th and April 1st are related blips in the data, in which case daily cases seem to have stabilised somewhat after the effects of the country-wide lockdown started to set in on March 29th.
+* 2020-04-14: Both confirmed cases and deaths have seen huge swings in the last few weeks. I haven't found any information as to why, but I suspect that reporting for some cases don't happen daily. The general trend for both confirmed cases and deaths have been downwards since the effects of the lockdown were to start showing their impact which is positive.
 
 ## Italy
 
@@ -79,6 +82,7 @@ The French government has categorised the epidemic in their [own four phases](ht
 * 2020-03-25: I start notice a drop in confirmed cases that my brain is keen to associate with the lockdown, but with only two datapoints,  I think it's better to wait a bit and see if it continues for another couple of days before getting too optimistic.
 * 2020-03-30: The confirmed case rate in Italy has stayed stable since the lock-down, a pattern that was also seen in Wuhan. In China it took around 2 weeks before the number of daily confirmed cases had halved after the lockdown had set in.
 * 2020-04-04: It's looking like the Italian daily cases are have been going down unsteadily for the last week and the death rate is showing signs of doing the same. Based on China and Italy, I'm suspecting that the time between infection and death is more like 14 (the conclusion in one paper based on data from China) than 8 (the conclusion in another paper based on early data from Italy). 
+* 2020-04-12: Reported deaths in Italy keep showing a steady decline from the point of impact of the country-wide lock-down. It looks like it has taken around two weeks to decrease by 1/3rd. I wonder if this pattern holds true for other countries.
 
 ## Spain
 
@@ -88,6 +92,7 @@ The Spanish measures were at first isolated to the worst affected regions (Madri
 
 * 2020-03-24: It's still too early to expect to see much effect from any nationwide action. I'm hopeful though that we'll start to see a drop in new cases as the nation-wide closing of schools approaches.
 * 2020-03-30: It's early days but it looks like Spain is starting to see an impact in daily infection rates after the lockdown set in. I'm crossing my fingers that numbers will remain stable or start dropping over the next week.
+* 2020-04-14: It's curious to see how Spanish confirmed cases kept steady for a week after the effects of the lockdown would be expected to start show their effect. I don't have testing data at hand to see if this was caused by increased testing. Deaths in Spain have been following the general pattern of a gradual decline roughly three weeks after the country wide lock-down measures were taken. Over the last 10 days the count of daily deaths has almost halved which is a reduction that is significantly faster than in Italy. 
 
 ## Scandinavia
 
