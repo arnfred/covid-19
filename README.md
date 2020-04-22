@@ -6,12 +6,6 @@ during the Covid-19 pandemic:
 1. What are the costs of inaction?
 2. When will policy measures take effect and do they work?
 
-I'm not an epidemiologist and have no specialist knowledge that would make me
-uniquely qualified to bring you this data. It's out of a desire to better
-understand current events, that I've taken the time to write up this data
-analysis. By publishing it, I hope it might be useful for someone else, but I
-also want to be clear that these numbers aren't authoritative in any way.
-
 <!-- vim-markdown-toc GFM -->
 
 * [The cost of Inaction](#the-cost-of-inaction)
@@ -208,4 +202,8 @@ Based on these sources I've chosen to use 12 days as the time between a policy i
 
 # About me and this repository
 
-I'm not an epidemiologist and have no specialist knowledge that would make me uniquely qualified to bring you this data. I've written up these numbers to satisfy my own curiosity and share my findings with friends. 
+I'm not an epidemiologist and have no specialist knowledge that would make me
+uniquely qualified to bring you this data. It's out of a desire to better
+understand current events, that I've taken the time to write up this data
+analysis. By publishing it, I hope it might be useful for someone else, but I
+also want to be clear that these numbers aren't authoritative in any way.
