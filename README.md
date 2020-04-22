@@ -1,19 +1,97 @@
-# Contents
+# Introduction & Contents
 
+I've created this repository to answer two questions that I've wondered about
+during the Covid-19 pandemic:
+
+1. What are the costs of inaction?
+2. When will policy measures take effect and do they work?
+
+I'm not an epidemiologist and have no specialist knowledge that would make me
+uniquely qualified to bring you this data. It's out of a desire to better
+understand current events, that I've taken the time to write up this data
+analysis. By publishing it, I hope it might be useful for someone else, but I
+also want to be clear that these numbers aren't authoritative in any way.
+
+<!-- vim-markdown-toc GFM -->
+
+* [The cost of Inaction](#the-cost-of-inaction)
+	* [Costly inaction in other countries](#costly-inaction-in-other-countries)
+		* [Spain](#spain)
+		* [Italy](#italy)
+		* [United States](#united-states)
+		* [Denmark](#denmark)
 * [Covid-19 Policy Effects](#covid-19-policy-effects)
-* [How to read the plot](#how-to-read-the-plot)
-* [Analysis](#analysis)
 	* [The United Kingdom](#the-united-kingdom)
 	* [Germany](#germany)
 	* [France](#france)
-	* [Italy](#italy)
-	* [Spain](#spain)
+	* [Italy](#italy-1)
+	* [Spain](#spain-1)
 	* [Scandinavia](#scandinavia)
+	* [Switzerland](#switzerland)
 * [About the data](#about-the-data)
 	* [Covid-19 Daily Data](#covid-19-daily-data)
 	* [Policy Decisions](#policy-decisions)
 	* [Covid-19 Case Statistics](#covid-19-case-statistics)
 * [About me and this repository](#about-me-and-this-repository)
+
+<!-- vim-markdown-toc -->
+
+# The cost of Inaction
+
+In the plot below I model the difference in total deaths, had the UK government
+enacted the lock-down just one week earlier:
+
+![UK Covid-19 Prediction Plot](/plots/predicted_uk.png)
+
+The model is a simple back-of-the-envelope model which assumes that once the
+peak in daily deaths have been reached, it will drop by roughly 50% every 15
+days. I've based this number on data from the following countries: France (8
+days), Norway (8 days), China (14 days), Spain (16 days), Denmark (16 days) and
+South Korea (17 days). For each country in the list, I've noted the days it
+took them to drop 50% after the moment they peaked in parenthesis. Based on
+these numbers I've picked the 'median' of 15 days.
+
+In the plot I've marked the time the lock-down was implemented (solid blue
+vertical line), plus the time the effects of the lock-down would be expected to
+start impacting the number of daily deaths (dotted blue vertical line). I've
+also done the same for the hypothetical lock-down that the government could
+have implemented one week earlier (green solid vertical line).
+
+As should be apperant from the plot, the cost of a week's delay would be equal
+to 11700 deaths by June 8th. That's more than 40% of the total amounts of
+deaths at this point in time. What's not shown in the graph is that the
+difference by April 22nd (today's day as I'm writing this), the difference is
+already 6100 deaths.
+
+## Costly inaction in other countries
+
+I've run the same analysis for a few other countries to see how the UK stacks up:
+
+### Spain
+
+![ES Covid-19 Prediction Plot](/plots/predicted_es.png)
+
+In Spain the benefit of acting a week earlier would have been 9500 saved lives by June 8th.
+
+### Italy
+
+![IT Covid-19 Prediction Plot](/plots/predicted_it.png)
+
+Italy has seen a slower reduction in deaths than most other countries past the peak of covid-19, and at this point 23 days of data later the number of deaths still haven't halved when I apply a rolling average of 3 days to remove outliers. Because of this I've plotted the italian model using a half time of 25 days rather than 15 days as I've used for the other countries. It's a good example of how the model is making some fairly rough assumptions that might very well not hold true for individual countries.
+
+For a half-life of 25 days, the model predicts that roughly 11300 deaths could have been prevented. However the model outcome is fairly stable to changes in half-life and when I use 15 days instead, the outcome is 9400 saved lives.
+
+### United States
+
+![US Covid-19 Prediction Plot](/plots/predicted_us.png)
+
+The US doesn't have a clear point in time when a lock-down was enacted because the different states are responsible for its implementation. By April 22nd, 40 states are in lock-down. The variance in the reported data on daily deaths makes me reluctant to conclude much based on the plot. It's very possible that the line of predicted deaths should lie significantly lower, in which case the figure of 39000 deaths would be much smaller.
+
+### Denmark
+
+![DK Covid-19 Prediction Plot](/plots/predicted_dk.png)
+
+While I think this plot is interesting from a policy perspective, I also think that the Danish goverment did a fairly good job in enacting timely measures. It was one of the first European countries to send public servants home and close schools.
 
 # Covid-19 Policy Effects
 
@@ -24,17 +102,6 @@ Different countries have taken different approaches to stopping or mitigating th
  - At what points in time does it make sense to compare the effects of the different approaches taken by the Danish and Swedish governments?
 
 To make it easier to see when we would expect policy measures to have an impact on numbers, I've plotted the two together for separate countries. I'm hoping that as more time passes the plots will also help in a coarse and unsophisticated way to assess at a glance if the measures have had an impact.
-
-# How to read the plot
-
-![UK Covid-19 Plot](/plots/uk.png)
-
-The Figure contains three plots, the leftmost showing the development in total cases of Covid-19, while the two figures to the right plot the daily cases (top) and deaths (bottom). On all plots I've marked a few policy events with a vertical line. The dashed line of the same colour shows after which point we'd hope to see changes in the numbers based on the policy beginning to appear. The gap in days between the policy and start of effect is 12 days for confirmed cases and 19 days for deaths on average. That means that we might see effects of a policy change before the dotted line, but that most of the effect of it should happen after. For more information about these numbers, see the [about the data section](#about-the-data).
-
-At the top of the plots I've marked the different phases the countries have taken to curtail the spread of the virus. I've found it useful because the confirmed cases only makes sense when considering how the government were testing people. It's been difficult to dig up the testing practices of different countries, and in many countries different parts of the country have taken different approaches at different times, so take these phases with a grain of salt.
-
-# Analysis
-I'll include plots from a few different countries here and jot down some thoughts if there's things standing out to me.
 
 ## The United Kingdom
 
