@@ -43,7 +43,8 @@ days. I've based this number on data from the following countries: France (8
 days), Norway (8 days), China (14 days), Spain (16 days), Denmark (16 days) and
 South Korea (17 days). For each country in the list, I've noted the days it
 took them to drop 50% after the moment they peaked in parenthesis. Based on
-these numbers I've picked the 'median' of 15 days.
+these numbers I've picked the 'median' of 15 days. I've later adjusted the UK
+to 25 since that looks more closer to the actual data.
 
 In the plot I've marked the time the lock-down was implemented (solid blue
 vertical line), plus the time the effects of the lock-down would be expected to
@@ -52,7 +53,7 @@ also done the same for the hypothetical lock-down that the government could
 have implemented one week earlier (green solid vertical line).
 
 As should be apperant from the plot, the cost of a week's delay would be equal
-to 11700 deaths by June 8th. That's more than 40% of the total amounts of
+to more than 10000 deaths by June 8th. That's more than 40% of the total amounts of
 deaths at this point in time. What's not shown in the graph is that the
 difference by April 22nd (today's day as I'm writing this), the difference is
 already 6100 deaths.
